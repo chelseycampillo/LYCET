@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "LYCET_package"
+version = "0.1.0"
+authors = [  
+  { name="Loralee Ryan", email="loraleeryan@g.harvard.edu" }, 
+  { name="Yanis Vandecasteele", email="yanis_vandecasteele@g.harvard.edu" },
+  { name="Chelsey Campillo Rodriguez", email="ccampillorodriguez@g.harvard.edu" },
+  { name="Tadhg Looram", email="tadhglooram@g.harvard.edu" },
+  { name="Elaine Swanson", email="cswanson@g.harvard.edu" }
+]
+description = "Automatic Differentiation package"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+  "numpy==1.23.5",
+  "pytest==7.2.0",
+]
+
+[project.urls]
+"Homepage" = "https://code.harvard.edu/CS107/team18"
